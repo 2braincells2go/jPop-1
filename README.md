@@ -10,7 +10,7 @@ Link Css file:
 
     <link rel="stylesheet" type="text/css" href="dist/css/plugin.css">
 <br>
-Template:
+#### Template:
 
     
 	<div class="popup gee-popup">
@@ -32,7 +32,7 @@ Link js files:
 		<script type="text/javascript" src="dist/js/plugin.js" ></script>
 		
 
- Call the plugin:
+#### Call the plugin:
  
 
     
@@ -43,3 +43,18 @@ Link js files:
 				buttonClass : "asd",
 			});
 		</script>
+#### The default options:
+| Option | Value  | 
+|  ---   |  ---   |
+|popupParent | gee-popup |
+|scrollTopPx | 200 |
+|popupCloseButton | .popup-close-button |
+|heading | heading - You can change |
+|paragraph | You can paragraph it from options. You can also change the input into your own template |
+|userContent | <div class=input> <input class=form-control type=text placeholder=Your Email > </div> |
+|buttonText | Click me |
+|buttonClass | btn btn-info btn-block btn-lg |
+### Contributors
+Ilyas Karim 
+http://www.twitter.com/iksdatoo
+http://www.facebook.com/iksdatu
