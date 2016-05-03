@@ -46,14 +46,14 @@ After visitor scrolls down to 200px (As a default but you can change it). You ca
 #### The default options:
 | Option | Value  | 
 |  ---   |  ---   |
-|popupParent | gee-popup |
-|scrollTopPx | 200 |
-|popupCloseButton | .popup-close-button |
-|heading | heading - You can change |
-|paragraph | You can paragraph it from options. You can also change the input into your own template |
-|userContent | <div class=input> <input class=form-control type=text placeholder=Your Email > </div> |
-|buttonText | Click me |
-|buttonClass | btn btn-info btn-block btn-lg |
+|Popup Parent | gee-popup |
+|Scroll Top Px | 200 |
+|Popup Close Button | .popup-close-button |
+|Heading | heading - You can change |
+|Paragraph | You can paragraph it from options. You can also change the input into your own template |
+|User Content | <div class=input> <input class=form-control type=text placeholder=Your Email > </div> |
+|Button Text | Click me |
+|Button Class | btn btn-info btn-block btn-lg |
 ### Contributors
 Ilyas Karim 
 <br>
