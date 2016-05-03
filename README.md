@@ -6,7 +6,7 @@ After visitor scrolls down to 200px (As a default but you can change it). You ca
 
 #### Usage
 <br>
-Link Css file:
+#### Link Css file:
 
     <link rel="stylesheet" type="text/css" href="dist/css/plugin.css">
 <br>
@@ -26,7 +26,7 @@ Link Css file:
 			<button class="btn btn-info btn-block btn-lg" ></button>
 		</div>
 	</div>
-Link js files:
+#### Link js files:
 
     
 		<script type="text/javascript" src="dist/js/plugin.js" ></script>
@@ -56,5 +56,7 @@ Link js files:
 |buttonClass | btn btn-info btn-block btn-lg |
 ### Contributors
 Ilyas Karim 
+<br>
 http://www.twitter.com/iksdatoo
+<br>
 http://www.facebook.com/iksdatu
