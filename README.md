@@ -37,7 +37,7 @@ After visitor scrolls down to 200px (As a default but you can change it). You ca
 
     
 		<script type="text/javascript">
-			$("html").subscription({
+			$("html").jPopup({
 				paragraph: "This is custom paragraph, You can change it",
 				buttonText : "Click me",
 				buttonClass : "btn btn-info btn-block btn-lg",
