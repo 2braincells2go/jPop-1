@@ -51,7 +51,7 @@ After visitor scrolls down to 200px (As a default but you can change it). You ca
 |Popup Close Button | .popup-close-button |
 |Heading | heading - You can change |
 |Paragraph | You can paragraph it from options. You can also change the input into your own template |
-|User Content | <div class=input> <input class=form-control type=text placeholder=Your Email > </div> |
+|User Content | &lt;div class="input"&gt; &lt;input class="form-control" type="text" placeholder="Your Email" &gt; &lt;/div&gt; |
 |Button Text | Click me |
 |Button Class | btn btn-info btn-block btn-lg |
 ### Contributors
