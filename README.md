@@ -4,6 +4,7 @@ jPop is Popup jQuery plugin that helps you to make awesome popup. jPop renders w
 <br>
 After visitor scrolls down to 200px (As a default but you can change it). You can change its title,paragraph,Button text and class and input through initializing plugin.
 ####  [Demo](https://rawgit.com/iksdatoo/jpop/master/index.html)
+<br>
 #### Usage
 <br>
 #### Link Css file:
