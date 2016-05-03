@@ -7,14 +7,13 @@
 	setInterval(function(){
 		$(".navbar-brand").html($(document).width());
 	},10)
-	$.fn.subscription = function (options) {
+	$.fn.jPopup = function (options) {
 		var settings = $.extend({
 			popupParent : "gee-popup",
-			scrollTopPx : 200,
+			scrollTopPx : 100,
 			popupCloseButton : ".popup-close-button",
 			heading : "heading - You can change",
-			paragraph : "You can paragraph it from options. You can also change the input into your own template",
-			userContent : '<div class="input"> <input class="form-control" type="text" placeholder="Your Email" > </div>',
+			paragraph : "You can change paragraph from options. You can also change the input into your own template",
 			userContent : '<div class="input"> <input class="form-control" type="text" placeholder="Your Email" > </div>',
 			buttonText : 'Click me',
 			buttonClass : "btn btn-info btn-block btn-lg",
