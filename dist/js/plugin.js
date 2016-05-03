@@ -10,7 +10,7 @@
 	$.fn.subscription = function (options) {
 		var settings = $.extend({
 			popupParent : "gee-popup",
-			scrollTopPx : 100,
+			scrollTopPx : 200,
 			popupCloseButton : ".popup-close-button",
 			heading : "heading - You can change",
 			paragraph : "You can paragraph it from options. You can also change the input into your own template",
