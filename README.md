@@ -58,15 +58,15 @@ I've released 0.2 version for jPop plugin. I've added one more feature. Now you 
 
     <script type="text/javascript">
 	    $("html").jPopup({
-		    	paragraph: "This is dummy paragraph for jPop plugin ",
-			buttonText : "Click Me",
-			buttonClass : "btn btn-info",
-			initThrough : function () {
-				$(".click-me").click(function(e) {
-					e.preventDefault();
-					$.fn.jPopup.openPopup();
-				});
-			}
+	    	paragraph: "This is dummy paragraph for jPop plugin ",
+		buttonText : "Click Me",
+		buttonClass : "btn btn-info",
+		initThrough : function () {
+			$(".click-me").click(function(e) {
+				e.preventDefault();
+				$.fn.jPopup.openPopup();
+			});
+		}
 	    });
     </script>
 
