@@ -68,6 +68,7 @@ I've released 0.2 version for jPop plugin. I've added one more feature. Now you 
 			}
 	    });
 
+#### [Click Demo](https://rawgit.com/iksdatoo/jpop/master/index-click.html)
 ### Contributors
 Ilyas Karim 
 <br>
