@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Popup jQuery Plugin</title>
+	<!-- font -->
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500' rel='stylesheet' type='text/css'>
+	<!-- font -->
+	<!-- css -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="dist/css/custom.css">
+		<link rel="stylesheet" type="text/css" href="dist/css/plugin.css">
+	<!-- css -->
+</head>
+<body>
+	<!-- Popup Plugin Template -->
+	<div class="popup gee-popup">
+		<div class="popup-inner">
+			<a class="close-button popup-close-button">
+				&times;
+			</a>
+			<div class="popup-header">
+				<h3 class="popup-title"></h3>
+			</div>
+			<p class="paragraph" ></p>
+			<div class="user-content"></div>
+			<button class="btn btn-info btn-block btn-lg" ></button>
+		</div>
+	</div>
+	<!-- Popup Plugin Template -->
+	<!-- navbar -->
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Subscription</a>
+				</div>
+		
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-right navbar-nav">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#usage">How to use</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div>
+		</nav>
+	<!-- navbar -->
+	<!-- Welcome -->
+	<div class="jumbotron text-center">
+		<div class="container">
+			<h1>Popup jQuery Plugin - v0.1</h1>
+			<p>Click Example</p>
+			<legend></legend>
+		</div>
+	</div>
+	<!-- Welcome -->
+	<!-- Scroll Down -->
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3" ></div>
+			<div class="col-sm-6" >
+				<p>
+					jPop is Popup jQuery plugin that helps you to make awesome popup. jPop appears when a visitor scrolls down.
+					After visitor scrolls down to 200px or You can change it to click to appear. You can change its title,paragraph,Button text and class and input through initializing plugin.
+				</p>
+				<br>
+				<button class="btn btn-init-pop btn-block btn-info btn-lg" >
+					Click me
+				</button>
+				<br>
+				<div id="usage">
+					<div class="text-center">
+						<h1>
+							How to Use
+						</h1>
+						<div role="tabpanel">
+							<!-- Nav tabs -->
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation" class="active">
+									<a href="#Html" aria-controls="Html" role="tab" data-toggle="tab">Html</a>
+								</li>
+								<li role="presentation">
+									<a href="#javascript" aria-controls="javascript" role="tab" data-toggle="tab">javascript</a>
+								</li>
+							</ul>
+						
+							<!-- Tab panes -->
+							<div class="tab-content">
+								<div role="tabpanel" class="tab-pane active" id="Html">
+									&lt;div class="popup gee-popup"&gt;
+										&lt;div class="popup-inner"&gt;
+											&lt;a class="close-button popup-close-button"&gt;
+												&times;
+											&lt;/a&gt;
+											&lt;div class="popup-header"&gt;
+												&lt;h3 class="popup-title"&gt;&lt;/h3&gt;
+											&lt;/div&gt;
+											&lt;p class="paragraph" &gt;&lt;/p&gt;
+											&lt;div class="user-content"&gt;&lt;/div&gt;
+											&lt;button class="btn btn-info btn-block btn-lg" &gt;&lt;/button&gt;
+										&lt;/div&gt;
+									&lt;/div&gt;
+								</div>
+								<div role="tabpanel" class="tab-pane" id="javascript">
+									&lt;script type="text/javascript"&gt;
+										$("html").subscription({
+											paragraph: "This is dummy paragraph for jPop plugin ",
+											buttonText : "Click Me",
+											buttonClass : "btn btn-info",
+											initThrough : function () {
+												$(".btn-init-pop").click(function(e) {
+													e.preventDefault();
+													$.fn.jPopup.openPopup();
+												});
+											}
+										});
+									&lt;/script&gt;
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+				<br>
+			</div>
+			<div class="col-sm-3" ></div>
+		</div>
+	</div>
+	<!-- Scroll Down -->
+	<!-- JS -->
+		<script type="text/javascript" src="js/jquery/jquery.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap/js/bootstrap.min.js" ></script>
+		<script type="text/javascript" src="dist/js/plugin.js" ></script>
+		<!-- call the plugin -->
+		<script type="text/javascript">
+			$("html").jPopup({
+				paragraph: "This is dummy paragraph for jPop plugin ",
+				buttonText : "Click Me",
+				buttonClass : "btn btn-info",
+				initThrough : function () {
+					$(".btn-init-pop").click(function(e) {
+						e.preventDefault();
+						$.fn.jPopup.openPopup();
+					});
+				}
+			});
+		</script>
+		<!-- call the plugin -->
+	<!-- JS -->
+</body>
+</html>
