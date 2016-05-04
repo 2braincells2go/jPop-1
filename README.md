@@ -37,9 +37,9 @@ After visitor scrolls down to 200px (As a default but you can change it). You ca
     
 		<script type="text/javascript">
 			$("html").jPopup({
-				paragraph: "This is custom paragraph, You can change it",
-				buttonText : "Click me",
-				buttonClass : "btn btn-info btn-block btn-lg",
+				paragraph: "This is dummy paragraph for jPop plugin ",
+				buttonText : "Click Me",
+				buttonClass : "btn btn-info",
 			});
 		</script>
 #### The default options:
@@ -58,9 +58,9 @@ I've released 0.2 version for jPop plugin. I've added one more feature. Now you 
 
     <script type="text/javascript">
 	    $("html").jPopup({
-		    paragraph: "ilyas karim",
-		    buttonText : "yaly yaran",
-		    buttonClass : "asd",
+		    	paragraph: "This is dummy paragraph for jPop plugin ",
+			buttonText : "Click Me",
+			buttonClass : "btn btn-info",
 			initThrough : function () {
 				$(".click-me").click(function(e) {
 					e.preventDefault();
