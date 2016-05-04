@@ -56,19 +56,17 @@ After visitor scrolls down to 200px (As a default but you can change it). You ca
 ## Version 0.2 Released
 I've released 0.2 version for jPop plugin. I've added one more feature. Now you can call the plugin by your own code so i've changed the slogan to 'The Awesome jQuery Popup plugin'. You can call plugin by following code:
 
-    <script type="text/javascript">
 	    $("html").jPopup({
-	    paragraph: "This is dummy paragraph for jPop",
-		buttonText : "Click Me",
-		buttonClass : "btn btn-info",
-		initThrough : function () {
-			$(".click-me").click(function(e) {
-				e.preventDefault();
-				$.fn.jPopup.openPopup();
-			});
-		}
+		    paragraph: "This is dummy paragraph for jPop",
+			buttonText : "Click Me",
+			buttonClass : "btn btn-info",
+			initThrough : function () {
+				$(".click-me").click(function(e) {
+					e.preventDefault();
+					$.fn.jPopup.openPopup();
+				});
+			}
 	    });
-    </script>
 
 ### Contributors
 Ilyas Karim 
